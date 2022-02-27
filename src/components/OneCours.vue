@@ -7,11 +7,20 @@
                     Lorem ipsum dolor sit amet consectetur...
                 </p>
             </div>
+
+            <div class="card-footer">
+                <button class="btn btn-danger btn-sm" type="button" @click="deleteCourse(course.id)">Delete</button>
+            </div>
         </div>
 </template>
 <script>
 export default {
-    props: ["course"]
+    props: ["course"],
+    methods: {
+        deleteCourse(id) {
+            this.$emit('deleted', id);
+        }
+    },
 }
 </script>
 <style lang="">

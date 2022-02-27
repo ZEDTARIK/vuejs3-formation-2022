@@ -1,7 +1,7 @@
 <template lang="">
 
     <div class="col-md-4" v-for="course in Courses" :key="course.id">
-            <OneCourse :course="course" />
+            <OneCourse :course="course" @deleted="onDelete($event)" />
     </div>
 
 </template>
@@ -32,6 +32,11 @@
                     }
 
                 ]
+            }
+        },
+        methods: {
+            onDelete(id) {
+                this.Courses = this.Courses.filter(course => course.id != id);
             }
         }
     }
