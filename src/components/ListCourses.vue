@@ -1,20 +1,18 @@
 <template lang="">
 
     <div class="col-md-4" v-for="course in Courses" :key="course.id">
-        <div class="card">
-            <img class="card-img-top" :src="course.image" :alt="course.title">
-            <div class="card-body">
-                <h4 class="card-title"> {{ course.title }} </h4>
-                <p class="card-text">
-                    Lorem ipsum dolor sit amet consectetur...
-                </p>
-            </div>
-        </div>
+            <OneCourse :course="course" />
     </div>
 
 </template>
 <script>
+    
+    import OneCourse from './OneCours.vue'
+    
     export default {
+        components: {
+            OneCourse,
+        },
         data() {
             return {
                 Courses: [{

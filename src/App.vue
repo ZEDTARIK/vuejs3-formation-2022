@@ -15,6 +15,8 @@
     <div class="row my-2">
       <ListCourses />
     </div>
+
+    <Footer author="Zouhair ETTARAK" Year="@ 2022"></Footer>
   </div>
 </template>
 
@@ -22,6 +24,7 @@
 import Header from "./components/Header.vue";
 import AddCours from "./components/AddCours.vue";
 import ListCourses from "./components/ListCourses.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   name: "App",
@@ -29,6 +32,7 @@ export default {
     Header,
     AddCours,
     ListCourses,
+    Footer,
   },
   data() {
     return {
