@@ -6,7 +6,7 @@
       </div>
     </div>
 
-    <Course />
+    <Employee />
     
     <Footer author="Zouhair ETTARAK" Year="@ 2022"></Footer>
   </div>
@@ -15,14 +15,14 @@
 <script>
 import Header from "./components/Header.vue";
 import Footer from "./components/Footer.vue";
-import Course from "./components/course/Course.vue"
+import Employee from "./components/employee/Employee.vue"
 
 export default {
   name: "App",
   components: {
     Header,
     Footer,
-    Course,
+    Employee,
   }
 };
 </script>
