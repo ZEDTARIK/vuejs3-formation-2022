@@ -1,0 +1,35 @@
+[33mcommit a6d694ac252e7823ab5deac6c55b2632bf144572[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: zouhair <ettarak.zouhair@gmail.com>
+Date:   Wed Mar 2 21:22:02 2022 +0100
+
+    Re-organise Code
+
+[33mcommit 248db3f3982fe2143d27a05d2d7e33846b563574[m
+Author: zouhair <ettarak.zouhair@gmail.com>
+Date:   Sun Feb 27 16:28:34 2022 +0100
+
+    Pass emit event Method from child to Parent use $emit
+
+[33mcommit abc6c859a7f36c69379e6628663930d01237842a[m
+Author: zouhair <ettarak.zouhair@gmail.com>
+Date:   Sun Feb 27 16:11:02 2022 +0100
+
+    Pass data from Parent to child use Props
+
+[33mcommit 8ec73a426a31850cc3d646a9447dc708aa898b30[m
+Author: zouhair <ettarak.zouhair@gmail.com>
+Date:   Sun Feb 27 15:04:02 2022 +0100
+
+    Scoped style css
+
+[33mcommit 7833a46b013d0ab892aabdaeb9f2846a725fe8ca[m
+Author: zouhair <ettarak.zouhair@gmail.com>
+Date:   Sun Feb 27 14:50:06 2022 +0100
+
+    Create Components and use it
+
+[33mcommit e4b359022bed3bf9642895c5605712bea463e5b0[m
+Author: zouhair <ettarak.zouhair@gmail.com>
+Date:   Sun Feb 27 14:07:59 2022 +0100
+
+    init
